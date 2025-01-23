@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    border: 1px red solid;
 }
 
 body {
@@ -37,7 +38,7 @@ ul {
     flex: 2;
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 60px;
     margin: 0 200px;
 }
 
@@ -131,6 +132,7 @@ ul {
     align-self: center;
     width: 800px;
     margin-bottom: 200px;
+    background-color: #E5E7EB;
 
 }
 
