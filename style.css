@@ -151,9 +151,6 @@ ul {
     padding-right: 6px;
 }
 
-* {
-    border: 1px red solid;
-}
 
 .lower {
     display: flex;
