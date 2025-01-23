@@ -98,7 +98,7 @@ ul {
     display: flex;
     gap: 50px;
     justify-content: center;
-    height: 500px;
+    height: 450px;
 }
 
 
@@ -124,15 +124,17 @@ ul {
 }
 
 .middle {
-    
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     align-self: center;
-    width: 800px;
-    margin-bottom: 200px;
+    height: 300px;
+    padding: 0 300px;
     background-color: #E5E7EB;
-
 }
+
+
 
 .middle p {
     color: #1F2937;
@@ -146,13 +148,14 @@ ul {
     font-weight: 900;
     font-size: 24px;
     color: #1F2937;
+    padding-top: 20px;
     padding-right: 6px;
 }
 
 .lower {
     display: flex;
     justify-content: center;
-    margin-bottom: 100px;
+    margin: 100px;
 }
 
 .l-container {
