@@ -129,8 +129,7 @@ ul {
     align-items: center;
     justify-content: center;
     align-self: center;
-    height: 300px;
-    padding: 0 300px;
+    padding: 40px 300px;
     background-color: #E5E7EB;
 }
 
@@ -150,6 +149,10 @@ ul {
     color: #1F2937;
     padding-top: 20px;
     padding-right: 6px;
+}
+
+* {
+    border: 1px red solid;
 }
 
 .lower {
