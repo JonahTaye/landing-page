@@ -3,7 +3,6 @@
 * {
     margin: 0;
     padding: 0;
-   
 }
 
 body {
@@ -83,5 +82,114 @@ ul {
     align-items: center;
 }
 
+.content {
+    
+    display: flex;
+    flex-direction: column;
+}
 
+.content h1 {
+    text-align: center;
+    padding: 36px;
+    color: #1F2937;
+    font-size: 36px;
+}
+.upper {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    height: 500px;
+}
 
+.box {
+    height: 160px;
+    width: 160px;
+    border: 4px #3882F6 solid;
+    border-radius: 10px;
+}
+
+.text-with-div {
+    display: flex;
+    flex-direction: column;
+    height: 240px;
+    width: 160px;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    color: #1F2937;
+}
+
+.text-with-div p {
+    flex: 1;
+    padding: 0 1px;
+}
+
+.middle {
+    
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 800px;
+    margin-bottom: 200px;
+
+}
+
+.middle p {
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 36px;
+}
+
+.middle div {
+    align-self: flex-end;
+    font-weight: 900;
+    font-size: 24px;
+    color: #1F2937;
+    padding-right: 6px;
+}
+
+.lower {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.l-container {
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    width: 800px;
+}
+
+.c-button button {
+    width: 120px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px;
+    padding: 8px 20px;
+    font-weight: 600;
+    font-size: medium;
+    border: 2px #E5E7EB solid;
+}
+
+.c-button {
+    display: flex;
+    align-items: center;
+}
+
+.l-text div {
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.footer {
+    color: #E5E7EB;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
